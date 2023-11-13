@@ -18,5 +18,8 @@
   "homepage": "https://github.com/luislucena16/treasury#readme",
   "devDependencies": {
     "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
   }
 }
