@@ -35,13 +35,13 @@ $ npx hardhat node
 3. Deploy the Smart Contract in local(Mainnet Fork) or testnet(Mumbai):
 
 ```
-$ npx hardhat run scripts/deployTreasury.js --network hardhat`
+$ npx hardhat run scripts/deployTreasury.js --network hardhat
 ```
 
 or
 
 ```
-$ npx hardhat run scripts/deployTreasury.js --network mumbai`
+$ npx hardhat run scripts/deployTreasury.js --network mumbai
 ```
 
 ## Usage
@@ -65,4 +65,4 @@ Ensure the robustness of the Smart Contract by running the test suite:
 
 Has been deployed on the Polygon Mumbai testnet. You can interact with the contract at the following address:
 
-Deployed Contract Address: [Treausry Contract Address](0xb200E942C4d066Dd28d67CfC6F2FDa4487a2FFEF)
+Deployed Contract Address: [Treausry Contract Address](https://mumbai.polygonscan.com/address/0xb200E942C4d066Dd28d67CfC6F2FDa4487a2FFEF)
