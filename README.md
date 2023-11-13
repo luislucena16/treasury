@@ -19,7 +19,7 @@ The objective is to create a smart contract that connects a treasury to multiple
 1. Install `NodeJS` project dependencies:
 
 ```
-$ npm install
+npm install
 ```
 
 2. Set your `.env` file
@@ -29,19 +29,19 @@ $ npm install
 3. Launch a local Hardhat node (automatically takes over the `URL` of `ETH_FORK_URL`) - it is Mainnet forked:
 
 ```
-$ npx hardhat node
+npx hardhat node
 ```
 
 3. Deploy the Smart Contract in local(Mainnet Fork) or testnet(Mumbai):
 
 ```
-$ npx hardhat run scripts/deployTreasury.js --network hardhat
+npx hardhat run scripts/deployTreasury.js --network hardhat
 ```
 
 or
 
 ```
-$ npx hardhat run scripts/deployTreasury.js --network mumbai
+npx hardhat run scripts/deployTreasury.js --network mumbai
 ```
 
 ## Usage
