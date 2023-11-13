@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "./Interfaces/IERC20.sol";
-import "./Interfaces/IUniswapRouter.sol";
-import "./Interfaces/IAaveLendingPool.sol";
+import "./interfaces/IERC20.sol";
+import "./interfaces/IUniswapRouter.sol";
+import "./interfaces/IAaveLendingPool.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 import "hardhat/console.sol";
 
