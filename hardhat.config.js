@@ -24,7 +24,7 @@ module.exports = {
     hardhat: {
       // url: "http://127.0.0.1:8545/",
       forking: {
-        // note: an Ethereum fork is being used
+        // note: an Mainnet fork is being used
         url: ETH_FORK_URL,
         blockNumber: 17971384,
       },
