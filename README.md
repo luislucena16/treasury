@@ -35,13 +35,13 @@ $ npx hardhat node
 3. Deploy the Smart Contract in local(Mainnet Fork) or testnet(Mumbai):
 
 ```
-$ npx hardhat run scripts/deployTreasury --network hardhat`
+$ npx hardhat run scripts/deployTreasury.js --network hardhat`
 ```
 
 or
 
 ```
-$ npx hardhat run scripts/deployTreasury --network mumbai`
+$ npx hardhat run scripts/deployTreasury.js --network mumbai`
 ```
 
 ## Usage
