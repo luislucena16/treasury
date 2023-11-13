@@ -1,11 +1,10 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.19;
 
 import "./interfaces/IERC20.sol";
 import "./interfaces/IUniswapRouter.sol";
 import "./interfaces/IAaveLendingPool.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
-import "hardhat/console.sol";
 
 contract Treasury {
     using SafeMath for uint256;
@@ -162,7 +161,6 @@ contract Treasury {
         );
 
         token.approve(aaveLendingPoolAddress, amount);
-        console.log("LendingPool and Amount", aaveLendingPoolAddress, amount);
         aaveLendingPool.deposit(tokenAddress, amount, address(this), 0);
     }
 
