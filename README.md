@@ -65,6 +65,12 @@ Ensure the robustness of the Smart Contract by running the test suite:
 
 `npx hardhat test`
 
+## Document and Diagram
+
+- You can see the complete document and flow diagram here:
+
+[Document](https://github.com/luislucena16/treasury/blob/81895f4dc840d2cc2c4615cf4ea474123edbf099/Treasury%20Diagram.pdf)
+
 ## Bonus: Deployed Contract
 
 Has been deployed on the Polygon Mumbai testnet. You can interact with the contract at the following address:
