@@ -34,7 +34,7 @@ npm install
 npx hardhat node
 ```
 
-3. Deploy the Smart Contract in local(Mainnet Fork) or testnet(Mumbai):
+## Deploy the Smart Contract in local(Mainnet Fork) or testnet(Mumbai):
 
 - In your principal terminal window run the command:
 
