@@ -1,0 +1,22 @@
+{
+  "name": "treasury",
+  "version": "1.0.0",
+  "description": "Treasury Smart Contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luislucena16/treasury.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luislucena16/treasury/issues"
+  },
+  "homepage": "https://github.com/luislucena16/treasury#readme",
+  "devDependencies": {
+    "hardhat": "^2.19.0"
+  }
+}
