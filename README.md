@@ -24,7 +24,7 @@ $ npm install
 
 2. Set your `.env` file
 
-- You should use this [guide](/home/luis/Desktop/treasury/.env.example), In your `ETH_FORK_URL` I recommend using a Mainnet fork
+- You should use this [guide](https://github.com/luislucena16/treasury/blob/b49be0b5b1b302fb576fc3b6c024821e95c35ad6/.env.example), In your `ETH_FORK_URL` I recommend using a Mainnet fork
 
 3. Launch a local Hardhat node (automatically takes over the `URL` of `ETH_FORK_URL`) - it is Mainnet forked:
 
